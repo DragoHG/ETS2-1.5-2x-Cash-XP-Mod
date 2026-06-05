@@ -1,0 +1,20 @@
+# Build output
+build/
+
+# Original def.scs files
+def/
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editor / IDE
+.cursor/
+.vscode/
+*.swp
+*~
+
+# Archives (source is folders; .scs only)
+*.scs
+*.zip

@@ -1,0 +1,15 @@
+1.5 Cash & XP — Economy Mod for Euro Truck Simulator 2
+
+A balanced boost: 1.5x job payouts and 1.5x experience (XP) gain.
+
+Changes:
+- Money multipliers: fixed_revenue, revenue_coef_per_km, cargo_market_revenue_coef_per_km, driver coefficients (1.5x)
+- XP multipliers: delivery, free roam, road discovery, parking bonuses (1.5x)
+
+IMPORTANT: Enable only ONE mod from the 2X Cash & XP family at a time.
+
+Compatible with the latest ETS2 version and all map DLCs.
+Does not modify fines, garage prices, or fuel costs.
+
+Author: Drago - Fabio Monreal
+Game by SCS Software (https://www.scssoft.com/)

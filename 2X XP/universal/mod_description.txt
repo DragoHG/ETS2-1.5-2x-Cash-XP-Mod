@@ -1,0 +1,15 @@
+2X XP — Economy Mod for Euro Truck Simulator 2
+
+Doubles experience (XP) gain from deliveries, free roam, road discovery, and manual parking bonuses. Job payouts remain at vanilla values.
+
+Changes:
+- exp_cargo_delivery, exp_free_roam, exp_road_discovery (2.0x)
+- Manual parking bonuses — easy, medium, hard, double trailers, loading phase (2.0x)
+
+IMPORTANT: Enable only ONE mod from the 2X Cash & XP family at a time.
+
+Compatible with the latest ETS2 version and all map DLCs.
+Does not modify fines, garage prices, or fuel costs.
+
+Author: Drago - Fabio Monreal
+Game by SCS Software (https://www.scssoft.com/)
