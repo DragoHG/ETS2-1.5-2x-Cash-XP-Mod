@@ -1,9 +1,6 @@
 # Build output
 build/
 
-# Original def.scs files
-def/
-
 # Windows
 Thumbs.db
 Desktop.ini
