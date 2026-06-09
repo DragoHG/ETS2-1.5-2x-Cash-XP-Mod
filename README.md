@@ -163,6 +163,11 @@ The following are intentionally excluded via `.gitignore`:
 
 The mod's `economy_data.sii` files are derived from the original game data by SCS Software. Vanilla files are not redistributed in this repository. All rights to the game and its assets belong to SCS Software s.r.o.
 
+### ☕ Support the Project
+If you enjoy these mods, consider supporting my work by buying me a coffee:
+
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://ko-fi.com/fabio_monreal)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
