@@ -1,8 +1,7 @@
-# Packs each mod into build/<name>.scs (local/standard layout).
-# manifest.sii + icon.jpg at archive root — required for in-game Mod Manager icon.
+﻿# Packs each mod into build/<name>.scs (local layout: manifest + icon at root).
 #
-# Steam Workshop build (versions.sii + universal/) is commented out below.
-# Uncomment the Workshop section when publishing to Steam via SCS Workshop Uploader.
+# Steam Workshop output is commented out below.
+# Uncomment the Workshop section when publishing with SCS Workshop Uploader.
 $ErrorActionPreference = "Stop"
 
 $root = $PSScriptRoot
@@ -73,7 +72,7 @@ function Get-LocalPackageFiles {
     }
 }
 
-# --- Steam Workshop (SCS Workshop Uploader) — uncomment when publishing to Steam ---
+# --- Steam Workshop — uncomment when publishing ---
 #
 # function Copy-WorkshopFolder {
 #     param(
@@ -120,7 +119,7 @@ foreach ($modName in $modFolders) {
     New-ScsArchive -Files $local.Files -SourceRoot $local.SourceRoot -OutputPath $outputScs
     Write-Host "Packed: $outputScs"
 
-    # --- Steam Workshop — uncomment when publishing to Steam ---
+    # --- Steam Workshop — uncomment when publishing ---
     # $outputWorkshop = Join-Path $workshopDir $modName
     # Copy-WorkshopFolder -ModDir $modDir -OutputDir $outputWorkshop
     # Write-Host "Workshop folder: $outputWorkshop"
